@@ -21,7 +21,7 @@ print(response) # Probably "Never gonna let you down"
 killbot() # Closes bot process
 ```
 
-#### Dependencies
+## Dependencies
 clever.py requires:
 *   Selenium Webdriver
 *   phantomjs binary
