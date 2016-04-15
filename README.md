@@ -18,7 +18,7 @@ A python module that allows you to talk with a cleverbot. Some example code:
 cleverbot = mkbot()
 response = cleverbot.say("Never gonna give you up")
 print(response) # Probably "Never gonna let you down"
-killbot() # Closes bot process
+cleverbot.killbot() # Closes bot process
 ```
 
 ## Dependencies
