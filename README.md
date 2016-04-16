@@ -1,10 +1,12 @@
 # 2clever
 
 ## Overview
-2clever is a python program that interfaces with cleverbot. It includes 3 python files:
+2clever is a python program that interfaces with cleverbot. It includes 3 python files for the program:
   1. 2cleverchat.py
   2. cleverchat.py
   3. cleverbot_io.py
+
+Along with a setup.py file to create an exe.
 
 #### 2cleverchat.py
 Makes two cleverbots talk to eachother.
@@ -26,3 +28,6 @@ All files require:
 
 2cleverchat.py and cleverchat.py require:
 *   Tcl/Tk libraries (Linux/Mac OSX)
+
+setup.py requires:
+*   cx_Freeze
