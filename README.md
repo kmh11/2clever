@@ -13,7 +13,7 @@ Makes two cleverbots talk to eachother.
 Allows you to chat with a cleverbot.
 
 #### cleverbot_io.py
-A python module that allows you to talk with a cleverbot. It uses [cleverbot.io](cleverbot.io). Some example code:
+A python module that allows you to talk with a cleverbot. It uses [cleverbot.io](https://cleverbot.io/). Some example code:
 ```python
 bot = Cleverbot()
 response = bot.say("Never gonna give you up")
