@@ -1,4 +1,4 @@
-import clever
+import cleverbot_io
 import threading
 from tkinter import *
 from tkinter.ttk import *
@@ -39,8 +39,8 @@ def startchat():
         root.destroy()
 
     root = Tk()
-    cb1 = clever.mkbot()
-    cb2 = clever.mkbot()
+    cb1 = cleverbot_io.Cleverbot("Ih7SiAskrVx87xF1","oHqp199HRBOBiN5thoXh1naFh6W2Vb07")
+    cb2 = cleverbot_io.Cleverbot("Ih7SiAskrVx87xF1","oHqp199HRBOBiN5thoXh1naFh6W2Vb07")
     userentry = StringVar()
     history = StringVar()
     
