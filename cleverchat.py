@@ -21,6 +21,7 @@ def startchat():
         
 
     root = Tk()
+    root.resizable(width=FALSE, height=FALSE)
     cb1 = cleverbot_io.Cleverbot("Ih7SiAskrVx87xF1","oHqp199HRBOBiN5thoXh1naFh6W2Vb07")
     userentry = StringVar()
     history = StringVar()
