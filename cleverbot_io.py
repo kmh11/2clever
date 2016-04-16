@@ -18,6 +18,3 @@ class Cleverbot:
         data = str.encode(urllib.parse.urlencode(params))
         response = json.loads(bytes.decode(urllib.request.urlopen(req, data).read()))
         return response['response']
-
-bot = Cleverbot("Ih7SiAskrVx87xF1","oHqp199HRBOBiN5thoXh1naFh6W2Vb07")
-print(bot.say("hello"))
