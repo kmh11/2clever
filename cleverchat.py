@@ -36,6 +36,5 @@ def startchat():
     enter.grid(column=1,row=1)
     enter.bind('<Return>', sendtoclevthread)
     root.mainloop()
-    cb1.killbot()
 
 startchat()

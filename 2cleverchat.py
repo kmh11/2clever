@@ -62,7 +62,5 @@ def startchat():
     close.grid(row=0, column=1, sticky=N, pady = 20)
     
     root.mainloop()
-    cb1.killbot()
-    cb2.killbot()
 
 startchat()
