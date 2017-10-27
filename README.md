@@ -6,7 +6,7 @@
   2. cleverchat.py
   3. cleverbot_io.py
 
-Along with a setup.py file to create an exe.
+Along with a setup.py file to create a Windows executable.
 
 #### 2cleverchat.py
 Makes two cleverbots talk to eachother.
